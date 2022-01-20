@@ -1,0 +1,7 @@
+ http://www.yourdomain.com/form-action.php/%22%3E%3Cscript%3Ealert('xss')%3C /script%3E%3Cfoo%22
+
+In this case, after PHP processing the code becomes:
+
+
+<form name="test" method="post" action="form-action.php"/>
+<script>alert('xss')</script><foo"">
