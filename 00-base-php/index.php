@@ -8,13 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <title>Base d'une page</title> <!---- La balise <title> permet d'ajouter 
+        <title>Base d'une page</title> <!---- La balise <title> permet d'ajouter
         le titre dans l'onglet -->
         <link rel="icon" type="image/png" href="images/favicon.png" />
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />  <!--Le reset ou normalize permet 
-        de s'assurer que les navigateurs aient le même style de départ--> 
-        <link rel="stylesheet" type="text/css" href="css/style.css" />    
-         
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />  <!--Le reset ou normalize permet
+        de s'assurer que les navigateurs aient le même style de départ-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
     </head>
     <body>
         <h1>Hello World !</h1>
